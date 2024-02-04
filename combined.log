@@ -1,0 +1,5 @@
+{"gameId":"65bfe7197c8ff0048f1ea267","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bfebb37c8ff0048f1ea269","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bff3ec6e584990f9c050fb","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bff3ec6e584990f9c050fb - Successful placement","service":"tic-tac-toe-service"}
+{"level":"warn","message":"65bff3ec6e584990f9c050fb - Cell 2 is already taken","service":"tic-tac-toe-service"}
