@@ -1,6 +1,8 @@
 import {NextFunction, Request, Response} from "express";
 import Game from "../models/Game";
 import logger from "../helper/wLogger";
+import {checkWinner} from "../helper/util";
+import {PLAYER} from "../helper/const";
 
 export class GameController {
   static async startGame(request: Request, response: Response, next: NextFunction) {
@@ -31,10 +33,25 @@ export class GameController {
         throw({status: 400, message: `Cell ${cellNum} is already taken` })
       }
 
-      logger.info(`${game._id} - Successful placement`);
+      logger.info(`${game._id} - Successful placement for ${player}`);
       game.board[cellNum] = player;
 
-      // TODO: check for winning
+      const winner = checkWinner(game.board);
+
+      if (winner) {
+        logger.info(`${game._id} - Game won by ${winner}`);
+        game.winner = winner;
+      } else {
+        // check for tie in a game
+        const isTie = !game.board.includes(null);
+        if (isTie) {
+          logger.warn(`${game._id} - Game is in a tie!`);
+          game.isTie = true;
+        } else {
+          // update currentPlayer
+          game.currentPlayer = player === PLAYER.x ? PLAYER.o : PLAYER.x;
+        }
+      }
 
       game.save();
 

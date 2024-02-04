@@ -3,3 +3,74 @@
 {"gameId":"65bff3ec6e584990f9c050fb","level":"info","message":"New game started","service":"tic-tac-toe-service"}
 {"level":"info","message":"65bff3ec6e584990f9c050fb - Successful placement","service":"tic-tac-toe-service"}
 {"level":"warn","message":"65bff3ec6e584990f9c050fb - Cell 2 is already taken","service":"tic-tac-toe-service"}
+{"gameId":"65bff8816e584990f9c05100","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bff8bb6e584990f9c05102","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bff8bb6e584990f9c05104","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bff96b6e584990f9c05106","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bff96c6e584990f9c05108","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bff9b66e584990f9c0510a","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bff9bd6e584990f9c0510c","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bff9bd6e584990f9c0510c - Successful placement","service":"tic-tac-toe-service"}
+{"gameId":"65bffa0a6e584990f9c05110","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffa106e584990f9c05112","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffa3c6e584990f9c05114","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffa416e584990f9c05116","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffa6a6e584990f9c05118","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffa716e584990f9c0511a","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffaec6e584990f9c0511c","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffaed6e584990f9c0511e","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"level":"error","message":"Game id null not found","service":"tic-tac-toe-service"}
+{"gameId":"65bffcaf6e584990f9c05121","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"level":"error","message":"Game id null not found","service":"tic-tac-toe-service"}
+{"gameId":"65bffcd36e584990f9c05124","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffcd56e584990f9c05126","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffcd66e584990f9c05128","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffcd76e584990f9c0512a","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffcd86e584990f9c0512c","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffcfc6e584990f9c0512e","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffd126e584990f9c05130","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffd146e584990f9c05132","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bffd146e584990f9c05132 - Successful placement","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bffd146e584990f9c05132 - Successful placement","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bffd146e584990f9c05132 - Successful placement","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bffd146e584990f9c05132 - Successful placement","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bffd146e584990f9c05132 - Successful placement","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bffd146e584990f9c05132 - Successful placement","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bffd146e584990f9c05132 - Successful placement","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bffd146e584990f9c05132 - Successful placement","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bffd146e584990f9c05132 - Successful placement","service":"tic-tac-toe-service"}
+{"gameId":"65bffd266e584990f9c05146","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffdae6e584990f9c05148","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffdc96e584990f9c0514a","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffdcd6e584990f9c0514c","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bffdcd6e584990f9c0514c - Successful placement","service":"tic-tac-toe-service"}
+{"gameId":"65bffdd16e584990f9c05150","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffe186e584990f9c05152","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffe396e584990f9c05154","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffe4a6e584990f9c05156","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bffe4a6e584990f9c05156 - Successful placement","service":"tic-tac-toe-service"}
+{"gameId":"65bffe506e584990f9c0515a","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bffe656e584990f9c0515c","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bffe656e584990f9c0515c - Successful placement","service":"tic-tac-toe-service"}
+{"gameId":"65bffe676e584990f9c05160","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65bfffca6e584990f9c05162","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bfffca6e584990f9c05162 - Successful placement","service":"tic-tac-toe-service"}
+{"gameId":"65bfffd86e584990f9c05166","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bfffd86e584990f9c05166 - Successful placement","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bfffd86e584990f9c05166 - Successful placement","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bfffd86e584990f9c05166 - Successful placement","service":"tic-tac-toe-service"}
+{"gameId":"65bfffdd6e584990f9c0516e","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65c0002a6e584990f9c05170","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"level":"info","message":"65c0002a6e584990f9c05170 - Successful placement","service":"tic-tac-toe-service"}
+{"level":"info","message":"65c0002a6e584990f9c05170 - Successful placement","service":"tic-tac-toe-service"}
+{"level":"info","message":"65c0002a6e584990f9c05170 - Successful placement","service":"tic-tac-toe-service"}
+{"gameId":"65c0004f6e584990f9c05178","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"gameId":"65c000516e584990f9c0517a","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"level":"info","message":"65c000516e584990f9c0517a - Successful placement","service":"tic-tac-toe-service"}
+{"level":"info","message":"65c000516e584990f9c0517a - Successful placement","service":"tic-tac-toe-service"}
+{"level":"warn","message":"65bff9bd6e584990f9c0510c - Cell 1 is already taken","service":"tic-tac-toe-service"}
+{"level":"info","message":"65bff9bd6e584990f9c0510c - Successful placement","service":"tic-tac-toe-service"}
+{"level":"error","message":"Game id 65bff9bd6e584990f9c0510c not found","service":"tic-tac-toe-service"}
+{"gameId":"65c00161857fa209fd2c1d8b","level":"info","message":"New game started","service":"tic-tac-toe-service"}
+{"level":"info","message":"65c00161857fa209fd2c1d8b - Successful placement for X","service":"tic-tac-toe-service"}
+{"level":"info","message":"65c00161857fa209fd2c1d8b - Successful placement for O","service":"tic-tac-toe-service"}
