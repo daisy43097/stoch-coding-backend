@@ -1,53 +1,38 @@
-
-import { AppDataSource } from "./data-source"
+require('dotenv').config();
 import express from "express"
 import bodyParser from "body-parser";
 import routes from "./routes";
 import cors from 'cors';
-import router from "./routes/user";
+import mongoose from "mongoose";
+const { MongoMemoryServer } = require('mongodb-memory-server');
 
-const cookiePaser = require('cookie-parser')
-const SERVER_PORT = 5003;
+const SERVER_PORT = process.env.SERVER_PORT;
 
-AppDataSource.initialize().then(async () => {
-
-    // create express app
+// MongoDB in-memory server
+async function startServer() {
     const app = express();
+    app.use(cors());
+    app.use(express.json());
 
-    const auth = require('./oauth2/auth');
+    // Create and start the MongoDB in-memory server
+    const mongoServer = await MongoMemoryServer.create();
+    const uri = mongoServer.getUri();
 
-    const allowedOrigins = ['http://localhost:3000'];
+    try {
+        await mongoose.connect(uri);
+        console.log(`MongoDB server is connected on ${uri}`);
+    } catch (error) {
+        console.error('Error in connecting with MongoDB: ', error);
+        return;
+    }
 
-    const options: cors.CorsOptions = {
-        origin: allowedOrigins,
-        credentials: true,
-        exposedHeaders: ['Content-disposition', 'x-access-token']
-    };
+    app.use('/', routes);
 
-    app.use(cors(options));
-    app.use(cookiePaser())
-
-    app.use(bodyParser.json());
-
-    app.use('/', routes)
-
-    // setup express app here
-    // ...
-
-    // start express server
-    app.listen(SERVER_PORT);
-
-    const puppeteer=require('puppeteer');
-    const launchConfig={
-        headless:true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
-    };
-    puppeteer.launch(launchConfig).then(browser=>{
-        global.chromeInstance = null
-        global.chromeInstance = browser
-
+    app.listen(SERVER_PORT, () => {
+        console.log(`Server listening at http://localhost:${SERVER_PORT}`);
     });
+}
 
-    console.log(`Express server has started on port ${SERVER_PORT}. Open http://localhost:${SERVER_PORT} to see results`);
-
-}).catch(error => console.log(error))
+startServer().catch(error => {
+    console.error('Failed to start server:', error);
+});
